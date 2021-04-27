@@ -96,7 +96,7 @@ CREATE TRIGGER update_false AFTER INSERT  ON youcoders
     FOR EACH ROW EXECUTE FUNCTION update_false();
 
 
-INSERT INTO youcoders VALUES ('P198','SOUILMI','SAFI','FEBE','CDA',14,true);
+INSERT INTO youcoders VALUES ('P198','med','SAFI','FEBE','CDA',14,true);
 
 
 select * from youcoders
